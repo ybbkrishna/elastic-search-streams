@@ -1,0 +1,39 @@
+{
+  "name": "elastic-search-streams",
+  "version": "1.0.0",
+  "description": "Elastic Search bulk import and export through streams",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ybbkrishna/elastic-search-streams.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "export",
+    "import",
+    "bulk",
+    "streams"
+  ],
+  "author": "Bhargav Krishna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ybbkrishna/elastic-search-streams/issues"
+  },
+  "homepage": "https://github.com/ybbkrishna/elastic-search-streams#readme",
+  "dependencies": {
+    "JSONStream": "^1.0.6",
+    "event-stream": "^3.3.1",
+    "q": "^1.4.1",
+    "request": "^2.64.0",
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
